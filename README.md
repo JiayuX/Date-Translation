@@ -11,7 +11,7 @@ The loss and accuracy of the model on the training and validation datasets as a 
 
 <img src="https://github.com/JiayuX/Date-Translation/blob/main/1.png" width="1000"/>
 
-The trained model achieved 99.60% accuracy on the test dataset. Due to the limited computational resources on my laptop, I simply manually tuned the hyper-parameters, trained the model for several times and selected the best one. A better model could be gotten with more training data and more sysmatic hyper-parameter tuning given enough computational resources and time.
+The trained model achieved 99.60% accuracy on the test dataset. Due to the limited computational resources on my laptop, I simply manually tuned the hyper-parameters, trained the model for several times and selected the best one. A better model could be gotten with a larger training dataset and more systematic hyper-parameter tuning given enough computational resources and time.
 
 Here is a glimpse of the translation by the model on some dates that I made up:
 
