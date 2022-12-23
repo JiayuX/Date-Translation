@@ -9,7 +9,7 @@ The human-readable dates are in miscellaneous formats containing numbers, Englis
 
 The loss and accuracy of the model on the training and validation datasets as a function of training epoch are shown in the following figures:
 
-<img src="https://github.com/JiayuX/Date-Translation/blob/main/1.png" width="400"/>
+<img src="https://github.com/JiayuX/Date-Translation/blob/main/1.png" width="1000"/>
 
 The trained model achieved 99.60% accuracy on the test dataset. Due the limited computational resources on my laptop, I simply manually tuned the hyper-parameters, trained the model for several times and selected the best one. A better model could be gotten with more training data and more sysmatic hyper-parameter tuning given enough computational resources and time.
 
