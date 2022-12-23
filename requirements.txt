@@ -1,0 +1,8 @@
+Babel==2.11.0
+contractions==0.1.72
+Faker==15.3.4
+matplotlib==3.5.2
+numpy==1.23.1
+pandas==1.4.3
+textblob==0.17.1
+torch==1.12.0
