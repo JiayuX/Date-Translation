@@ -16,3 +16,5 @@ The trained model achieved 99.60% accuracy on the test dataset. Due to the limit
 Here is a glimpse of the translation by the model on some dates that I made up:
 
 <img src="https://raw.githubusercontent.com/JiayuX/Date-Translation/main/2.png" width="400"/>
+
+Not bad eh?
