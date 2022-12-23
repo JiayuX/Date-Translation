@@ -5,7 +5,7 @@ The training, validation and test data are generated and preprocessed before bei
 
 The model is composed of an encoder to take the input sequence and encode it into a representation vector (hidden state) and a decoder to generate the output sequence based on the encoded information from the input sequence. The attention layer further allows the decoder to utilize the information of all the hidden states of the encoder at every step of generating a new element during the decoding stage. In that way, the model learns to pay attention to different parts of the input sequence when generating different parts of the output sequence, which results in better performance. Specifically, one layer or multiple layers of bidirectional LSTM cells are used for the encoder and the same number of layers of unidirectional LSTM cells are used for the decoder.
 
-The human-readable dates are in miscellaneous formats containing numbers, English letters and punctuations, while the machine-readable dates are all in the format of 'YYYY-MM-DD'. We define a predicted sequence as correct only if it exactly match the ground truth element-by-element.
+The human-readable dates are in miscellaneous formats containing numbers, English letters and punctuations, while the machine-readable dates are all in the format of 'YYYY-MM-DD'. We define a predicted sequence as correct only if it exactly matches the ground truth element-by-element.
 
 The loss and accuracy of the model on the training and validation datasets as a function of training epoch are shown in the following figures:
 
